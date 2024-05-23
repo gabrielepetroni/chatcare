@@ -34,6 +34,7 @@ Esta carpeta contiene todos los archivos relacionados a la vía 1 en la que se h
 * __data_NoEtiqueta_2.json__: dataset creado para el modelo 2 y 4.
 * __data_NoEtiqueta_3.json__: dataset creado para el modelo 3 y 4.
 * __modelosl.zip__: Zip que contiene los 4 modelos utilizados para generar las conversaciones.
+* __notagged-conversations-generate-jsonl.ipynb__: NoteBook utilizado para convertir conversaciones generadas en modo texto a formato JSONL.
 
 ### Carpeta 02-via2-tag
 
@@ -49,7 +50,16 @@ Esta carpeta contiene todos los archivos relacionados a la vía 1 en la que se h
 ### Carpeta 03-conversaciones-JSONL
 
 * __conv-ft1.txt__: las 100 conversaciones generadas por la vía sin tag y que han sido creadas para ser usadas en el Fine-Tuning.
+* __conv-ft1.jsonl__: el fichero anterior convertido a formato requerido por el Fine-Tuning.
 * __conv-ft2.jsonl__: pares de pregunta y respuesta generados automáticamente mediante el chatbot original con dataset con tag aumentado para ser usados en el Fine-Tuning.
+
+### Carpeta 04-documentacion
+
+
+* __00-ChatCare INICIAL.pdf__: presentación de la idea.
+* __01-ChatCare PROTOTIPO.pdf__: presentación del prototipo y estado del proyecto.
+* __02-ChatCare FINAL.pdf__: presentación final del proyecto.
+* __Memoria final - Grupo III.pdf__: memoria final del proyecto.
 
 ### Reparto de trabajo
 
